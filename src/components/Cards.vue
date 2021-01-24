@@ -2,7 +2,7 @@
   <!-- This example requires Tailwind CSS v2.0+ -->
   <div class="relative bg-gray-50 pt-16 pb-20 px-4 sm:px-6 lg:pt-24 lg:pb-28 lg:px-8">
     <div class="absolute inset-0">
-      <div class="bg-white h-1/3 sm:h-2/3"></div>
+      <div class="bg-gray-50 h-1/3 sm:h-2/3"></div>
     </div>
     <div class="relative max-w-7xl mx-auto">
       <div class="text-center">
@@ -15,7 +15,7 @@
       </div>
       <div class="mt-12 max-w-lg mx-auto grid gap-5 lg:grid-cols-3 lg:max-w-none">
 
-        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex transition ease-in-out transform hover:scale-105 flex-col rounded-lg shadow-lg overflow-hidden">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="../assets/img/HofNiebuhr.webp" alt="">
           </div>
@@ -38,7 +38,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex transition ease-in-out transform hover:scale-105 flex-col rounded-lg shadow-lg overflow-hidden">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="../assets/img/Bauern.webp" alt="">
           </div>
@@ -61,7 +61,7 @@
           </div>
         </div>
 
-        <div class="flex flex-col rounded-lg shadow-lg overflow-hidden">
+        <div class="flex transition ease-in-out transform hover:scale-105 flex-col rounded-lg shadow-lg overflow-hidden">
           <div class="flex-shrink-0">
             <img class="h-48 w-full object-cover" src="../assets/img/HofNiebuhr.webp" alt="">
           </div>
